@@ -15,7 +15,7 @@ public class CellData {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return text;
     }
 
@@ -25,7 +25,7 @@ public class CellData {
 
     public void setText(String text) {
         this.text = text;
-        changed=true;
+        changed = true;
     }
 
     public Background getBackground() {
@@ -34,14 +34,14 @@ public class CellData {
 
     public void setBackground(Background background) {
         this.background = background;
-        changed=true;
+        changed = true;
     }
 
-    void updated(){
+    void updated() {
         changed = false;
     }
 
-    boolean hasChanged(){
+    boolean hasChanged() {
         return changed;
     }
 }

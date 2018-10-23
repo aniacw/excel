@@ -6,10 +6,11 @@ import javafx.scene.paint.Color;
 import org.controlsfx.control.GridCell;
 
 public class Cell extends GridCell<CellData> {
+
     private Background background;
 
-    public Cell(){
-        background=new Background(new BackgroundFill(Color.CHOCOLATE, null, null));
+    public Cell() {
+        background = new Background(new BackgroundFill(Color.CHOCOLATE, null, null));
     }
 
     @Override
